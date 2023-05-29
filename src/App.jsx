@@ -3,6 +3,7 @@ import "./App.css";
 import { Profile } from "./Profile";
 import { Proyectos } from "./Proyectos";
 import { Navbar } from "./Navbar";
+import { Contacto } from "./Contacto";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,9 +25,7 @@ function App() {
         <div>
           <h1>ACERCA</h1>
         </div>
-        <div>
-          <h1>CONTACTO</h1>
-        </div>
+        <Contacto></Contacto>
       </main>
     </>
   );
