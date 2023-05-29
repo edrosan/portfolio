@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Profile } from "./Profile";
 import { Proyectos } from "./Proyectos";
-import iconNight from "./assets/img/night.png"
+import { Navbar } from "./Navbar";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,15 +14,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <span>Gith</span>
-        <span>LIn</span>
-        <span>
-          <button onClick={changeDarkMode}>
-            <img src={iconNight} />
-          </button>
-        </span>
-      </div>
+      <header className="w-full h-full flex flex-col px-3 py-2  md:px-36">
+        <Navbar changeDarkMode={changeDarkMode}></Navbar>
+      </header>
       <main className="w-full h-full flex flex-col  px-4 py-12 md:px-36">
         <Profile></Profile>
 
