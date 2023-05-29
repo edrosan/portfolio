@@ -7,7 +7,7 @@ export function Profile() {
         <h1 className="text-4xl mb-8 text-[#1c1b1f] font-bold font-sans dark:text-[#e5e1e6]">
           EDUARDO RODRIGUEZ SANCHEZ
         </h1>
-        <p className="mb-10 text-xl text-[#1c1b1f] dark:text-[#e5e1e6]">
+        <p className="mb-4 text-xl text-[#1c1b1f] dark:text-[#e5e1e6]">
           Un desarrollador web enfocado en frontend que construye el frontend de
           sitios web y aplicaciones web que conducen al éxito del producto en
           general.

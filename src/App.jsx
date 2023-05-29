@@ -4,6 +4,7 @@ import { Profile } from "./Profile";
 import { Proyectos } from "./Proyectos";
 import { Navbar } from "./Navbar";
 import { Contacto } from "./Contacto";
+import { Skills } from "./Skills";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,6 +22,8 @@ function App() {
 
       <main className="w-full h-full flex flex-col  px-4 py-12 md:mx-auto md:w-[1200px]">
         <Profile></Profile>
+
+        <Skills></Skills>
 
         <Proyectos></Proyectos>
         
