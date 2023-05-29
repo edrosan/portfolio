@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>menu</div>
-      <main className="w-full h-full flex flex-col  px-36 py-12 ">
+      <main className="w-full h-full flex flex-col  px-4 py-12 md:px-36">
         <Profile></Profile>
 
         <Proyectos></Proyectos>
