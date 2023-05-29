@@ -1,23 +1,26 @@
 import { useState } from "react";
 import "./App.css";
 
+import { Profile } from "./Profile";
+import { Proyectos } from "./Proyectos";
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="m-2 bg-white w-[200px] h-[200px] flex flex-col border border-gray-200 rounded-lg shadow">
+      <div>menu</div>
+      <main className="w-full h-full flex flex-col  px-36 py-12 ">
+        <Profile></Profile>
+
+        <Proyectos></Proyectos>
         <div>
-          <img
-            className="w-auto h-auto object-cover rounded-full"
-            src="https://images.unsplash.com/photo-1618641986557-1ecd230959aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-          />
+          <h1>ACERCA</h1>
         </div>
         <div>
-          <h1>Eduardo</h1>
-          <p>Programador web</p>
+          <h1>CONTACTO</h1>
         </div>
-      </div>
+      </main>
     </>
   );
 }
