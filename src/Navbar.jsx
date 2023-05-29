@@ -12,7 +12,7 @@ export function Navbar({ changeDarkMode, darkMode }) {
   };
 
   return (
-    <div className="flex justify-center gap-3 w-full h-[40px]">
+    <div className="flex justify-center gap-3 w-full h-14">
       
       <IconGitHub></IconGitHub>
       <div className="w-auto h-full">
