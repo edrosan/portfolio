@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <header className="w-full h-full flex flex-col px-3 py-2  md:px-36">
+      <header className="w-full h-full flex flex-col  px-3 py-2  md:px-36">
         <Navbar changeDarkMode={changeDarkMode} darkMode></Navbar>
       </header>
       <main className="w-full h-full flex flex-col  px-4 py-12 md:px-36">
