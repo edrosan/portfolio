@@ -2,7 +2,7 @@ export function IconLightMode() {
 
   return(
     <svg
-      className="fill-[#e5e1e6] w-auto h-full"
+      className="fill-[#e5e1e6] w-auto h-full py-1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
     >
