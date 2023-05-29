@@ -22,9 +22,7 @@ function App() {
         <Profile></Profile>
 
         <Proyectos></Proyectos>
-        <div>
-          <h1>ACERCA</h1>
-        </div>
+        
         <Contacto></Contacto>
       </main>
     </>
