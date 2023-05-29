@@ -12,9 +12,10 @@ export function Navbar({ changeDarkMode, darkMode }) {
   };
 
   return (
-    <div className="flex justify-center gap-3 w-full h-14">
+    <div className="flex justify-center gap-3 w-full h-10">
       
       <IconGitHub></IconGitHub>
+
       <div className="w-auto h-full">
         <button type="button" className="w-auto h-full" onClick={changeIconDarkMode} title="Dark Mode">
           {isDarkMode ? (
