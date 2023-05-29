@@ -11,7 +11,6 @@ export function Proyecto({ imagenProyecto, linkTo, tecnologias }) {
       <div className="absolute bottom-0 h-10 flex gap-2 justify-center items-center bg-[#5248d7dd] text-[#ffffff] w-full rounded-b-lg">
         {tecUsadas.map((tecnologia, index) => {
           // Todo crear key unica
-          console.log(tecnologia+index)
           return <p key={tecnologia+index} className="align-middle">
             {tecnologia}
             </p>
