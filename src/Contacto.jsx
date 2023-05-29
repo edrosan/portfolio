@@ -25,7 +25,7 @@ export function Contacto() {
           <textarea className="w-full rounded-lg h-[200px] mt-2 p-5 bg-[#e4e1ec] text-[#47464f] outline-none  dark:bg-[#47464f] dark:text-[#c8c5d0]"></textarea>
         </div>
 
-        <button type="submit" className="text-white  h-[55px] text-[16px] items-center bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl group relative flex w-full justify-center rounded-md border border-transparent  py-2 px-4 text-sm font-medium ">Crear cita</button>
+        <button type="submit" className="text-white  h-[55px] text-[16px] items-center bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl group relative flex w-full justify-center rounded-md border border-transparent  py-2 px-4 text-sm font-medium ">Contactar</button>
       </form>
     </div>
   );
