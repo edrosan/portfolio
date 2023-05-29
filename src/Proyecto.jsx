@@ -4,7 +4,7 @@ export function Proyecto({ imagenProyecto, linkTo, tecnologias }) {
   return (
     <a
       href={linkTo}
-      className="w-full h-[200px] bg-white border border-gray-200 rounded-lg relative"
+      className="w-full h-[200px] bg-white border border-gray-200 rounded-lg shadow-md	 relative"
     >
       <img className="object-cover w-full h-full rounded-lg" src={imagenProyecto} />
 
