@@ -8,7 +8,7 @@ export function Proyecto({ imagenProyecto, linkTo, tecnologias }) {
     >
       <img className="object-cover w-full h-full rounded-lg" src={imagenProyecto} />
 
-      <div className="absolute bottom-0 h-10 flex gap-2 justify-center items-center bg-indigo-500 text-zinc-50 w-full rounded-b-lg">
+      <div className="absolute bottom-0 h-10 flex gap-2 justify-center items-center bg-[#5248d7dd] text-[#ffffff] w-full rounded-b-lg">
         {tecUsadas.map((tecnologia, index) => {
           // Todo crear key unica
           console.log(tecnologia+index)
