@@ -1,11 +1,11 @@
 export function Contacto() {
   return (
-    <div className="">
-      <h1 className="text-[24px] text-[#1c1b1f] font-bold mb-4 dark:text-[#e5e1e6]">
+    <div id="contacto" className="">
+      <h1 className="scroll-mt-[50px] text-[24px] text-[#1c1b1f] font-bold mb-4 dark:text-[#e5e1e6]">
         CONTACTO
       </h1>
 
-      <form className="w-full font-sans rounded-lg p-4  border border-gray-200 shadow-lg">
+      <form className="w-[500px] mx-auto font-sans rounded-lg p-4  border border-gray-200 shadow-lg">
         <div className="block mb-4">
           <label className="text-[#1c1b1f] mb-2  dark:text-[#e5e1e6]">Nombre</label>
           <input

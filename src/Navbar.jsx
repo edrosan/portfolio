@@ -1,30 +1,22 @@
-import { IconLightMode } from "./IconLightMode";
-import { useState } from "react";
-import { IconDarkMode } from "./IconDarkMode";
 import { IconGitHub } from "./IconGitHub";
+import { OpcNavbar } from "./OpcNavbar";
+import { ButtonDarkMode } from "./ButtonDarkMode";
 
 export function Navbar({ changeDarkMode, darkMode }) {
-  const [isDarkMode, setIsDarkMode] = useState(darkMode);
-
-  const changeIconDarkMode = () => {
-    changeDarkMode();
-    setIsDarkMode(!isDarkMode);
-  };
-
   return (
-    <div className="flex justify-center gap-3 w-full h-10">
-      
+    <div  className=" flex justify-center gap-3 w-full h-10 lg:justify-end md:mx-auto md:w-[1200px]">
+      <OpcNavbar goTo={"#inicio"}>Inicio</OpcNavbar>
+      <OpcNavbar goTo={"#skills"}>Skills</OpcNavbar>
+      <OpcNavbar goTo={"#proyectos"}>Proyectos</OpcNavbar>
+      <OpcNavbar goTo={"#contacto"}>Contacto</OpcNavbar>
+
       <IconGitHub></IconGitHub>
 
-      <div className="w-auto h-full">
-        <button type="button" className="w-auto h-full" onClick={changeIconDarkMode} title="Dark Mode">
-          {isDarkMode ? (
-            <IconDarkMode></IconDarkMode>
-          ) : (
-            <IconLightMode></IconLightMode>
-          )}
-        </button>
-      </div>
+        <ButtonDarkMode
+          darkMode
+          changeDarkMode={changeDarkMode}
+        ></ButtonDarkMode>
+      
     </div>
   );
 }
