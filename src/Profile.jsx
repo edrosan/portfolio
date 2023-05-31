@@ -9,7 +9,7 @@ export function Profile() {
   return (
     <div
       id="inicio"
-      className="flex flex-col items-start scroll-mt-[80px]  lg:flex-row lg:items-center justify-between dark:bg-[#1c1b1f]"
+      className="flex flex-col items-start scroll-mt-[80px]   lg:flex-row lg:items-center justify-between dark:bg-[#1c1b1f]"
     >
       <div className="w-auto h-auto mb-4 flex flex-col ">
         <TituloProfile>EDUARDO RODRIGUEZ</TituloProfile>
