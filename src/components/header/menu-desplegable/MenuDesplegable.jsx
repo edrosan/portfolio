@@ -40,7 +40,7 @@ export function MenuDesplegable({ changeOpenMenu, changeDarkMode }) {
           </OpcNavbar>
         </div>
 
-        <div className="w-full  mt-auto mb-16  flex justify-between bg-[#fffbff] dark:bg-[#1c1b1f]">
+        <div className="w-full  mt-auto mb-auto  flex justify-between bg-[#fffbff] dark:bg-[#1c1b1f]">
           <Icon
             goTo="https://www.linkedin.com/in/edrodsan/"
             name="linkedin"
