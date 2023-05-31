@@ -4,15 +4,25 @@ import { ButtonDarkMode } from "../../ButtonDarkMode";
 import { Icon } from "../icons/Icon";
 import { GitHub } from "../icons/GitHub";
 import { Linkedin } from "../icons/Linkedin";
+import { ButtonNavbar } from "./ButtonNavbar";
+import { Svg } from "../icons/Svg";
+import { Menu } from "../icons/Menu";
 
 export function Navbar({ changeDarkMode, darkMode }) {
   return (
-    <nav className="w-full h-auto mx-auto mt-4 flex justify-center   gap-2 md:w-[1024px] md:mx-auto md:justify-between">
+    <nav className="w-auto h-auto mx-4 my-4  flex justify-between   gap-2 lg:w-[1024px] lg:mx-auto md:justify-between">
       <div>
-        <img src={IconLogo} className="w-auto h-[24px]" />
+        Rodriguez
+        {/* <img src={IconLogo} className="w-auto h-[24px]" /> */}
       </div>
 
       <div className="flex">
+        <ButtonNavbar>
+          <Svg>
+            <Menu></Menu>
+          </Svg>
+        </ButtonNavbar>
+
         <div className="hidden md:flex md:gap-2">
           <OpcNavbar goTo="#inicio">Inicio</OpcNavbar>
           <OpcNavbar goTo="#skills">Skills</OpcNavbar>

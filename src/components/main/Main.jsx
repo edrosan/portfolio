@@ -6,7 +6,7 @@ import { Tooltip } from "flowbite";
 
 export function Main() {
   return (
-    <main className="mt-[50px] mx-4 flex flex-col  md:mx-auto md:w-[1024px]">
+    <main className="mt-20 mx-4 flex flex-col md:w-auto xl:w-[1024px] xl:mx-auto">
       <Profile></Profile>
 
       {/* <Skills></Skills> */}
