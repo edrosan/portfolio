@@ -11,7 +11,7 @@ export function InfoProyecto({ nombre, tecnologias, descripcion }) {
           <TextInfo>{nombre}</TextInfo>
         </div>
 
-        <div className="flex flex-col px-2 py-2 ">
+        <div className="flex flex-col  px-2 py-2 ">
           <TituloInfo>tecnologias</TituloInfo>
           <Tecnologias tecnologias={tecnologias}></Tecnologias>
         </div>

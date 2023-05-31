@@ -6,6 +6,7 @@ import { Linkedin } from "../icons/Linkedin";
 import { ButtonNavbar } from "./ButtonNavbar";
 import { Svg } from "../icons/Svg";
 import { Menu } from "../icons/Menu";
+import { Close } from "../icons/Close";
 import { MenuDesplegable } from "./menu-desplegable/MenuDesplegable";
 import { useState } from "react";
 
@@ -18,12 +19,12 @@ export function Navbar({ changeDarkMode, darkMode }) {
 
   return (
     <nav className="w-auto h-auto mx-4 my-4  grid grid-cols-2 lg:w-[1024px] lg:mx-auto md:justify-between">
-      <div>Rodriguez</div>
+      <div className="text-[#1c1b1f] dark:text-[#e5e1e6]">Rodriguez</div>
 
       <div className="flex justify-self-end">
         <ButtonNavbar changeOpenMenu={changeOpenMenu}>
           <Svg>
-            <Menu></Menu>
+            {openMenu ? <Close></Close> : <Menu></Menu>}
           </Svg>
         </ButtonNavbar>
 
@@ -57,7 +58,7 @@ export function Navbar({ changeDarkMode, darkMode }) {
       </div>
 
       {openMenu ? (
-        <MenuDesplegable changeOpenMenu={changeOpenMenu}></MenuDesplegable>
+        <MenuDesplegable changeOpenMenu={changeOpenMenu} changeDarkMode={changeDarkMode}></MenuDesplegable>
       ) : (
         <></>
       )}

@@ -2,7 +2,7 @@ export function Tecnologias( {tecnologias}) {
   const tecUsadas = [...tecnologias];
   
   return (
-    <div className="text-sm flex  justify-between">
+    <div className="text-sm flex flex-wrap justify-between">
       {tecUsadas.map((tecnologia, index) => {
         // Todo crear key unica
         return (
