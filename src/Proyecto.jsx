@@ -1,26 +1,27 @@
-export function Proyecto({ imagenProyecto, linkTo, tecnologias }) {
-  const tecUsadas = [...tecnologias];
+import { ImgProyecto } from "./components/main/Proyectos/ImgProyecto";
+import { InfoProyecto } from "./components/main/Proyectos/InfoProyecto";
 
+export function Proyecto({
+  imagenProyecto,
+  linkTo,
+  nombre,
+  descripcion,
+  tecnologias,
+}) {
   return (
     <a
       href={linkTo}
-      className="w-full  rounded-lg relative border border-gray-200  shadow-lg dark:border-none"
+      className="w-full flex flex-col rounded-lg border border-[#e4e1ec] dark:border-none"
+      target="_blank"
+      rel="noreferrer"
     >
-      <img
-        className="object-cover  h-full rounded-lg"
-        src={imagenProyecto}
-      />
+      <ImgProyecto img={imagenProyecto}></ImgProyecto>
 
-      <div className="absolute bottom-0 h-10 flex gap-2 justify-center items-center bg-[#5248d7dd] text-[#ffffff] w-full rounded-b-lg dark:bg-[#372abfcc] dark:text-[#e3dfff]">
-        {tecUsadas.map((tecnologia, index) => {
-          // Todo crear key unica
-          return (
-            <p key={tecnologia + index} className="align-middle">
-              {tecnologia}
-            </p>
-          );
-        })}
-      </div>
+      <InfoProyecto
+        nombre={nombre}
+        tecnologias={tecnologias}
+        descripcion={descripcion}
+      ></InfoProyecto>
     </a>
   );
 }
