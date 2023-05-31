@@ -19,7 +19,7 @@ export function Navbar({ changeDarkMode, darkMode }) {
 
   return (
     <nav className="grid grid-cols-1 lg:w-[1024px] lg:mx-auto md:justify-between">
-      <div className="px-4 py-2 flex justify-between border border-transparent border-b-[#e4e1ec] dark:border-b-[#47464f] ">
+      <div className="px-4 py-4 flex justify-between border border-transparent border-b-[#e4e1ec] dark:border-b-[#47464f] ">
         <div className="text-[#1c1b1f] dark:text-[#e5e1e6]">Rodriguez</div>
         <div className="flex justify-self-end">
           <ButtonNavbar changeOpenMenu={changeOpenMenu}>
