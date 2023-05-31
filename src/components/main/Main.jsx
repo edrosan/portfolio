@@ -13,7 +13,7 @@ export function Main() {
 
       <Proyectos></Proyectos>
 
-      {/* <Contacto></Contacto> */}
+      <Contacto></Contacto>
     </main>
   );
 }

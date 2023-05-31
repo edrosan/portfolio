@@ -56,7 +56,11 @@ export function Navbar({ changeDarkMode, darkMode }) {
         </div>
       </div>
 
-      {openMenu ? <MenuDesplegable></MenuDesplegable> : <></>}
+      {openMenu ? (
+        <MenuDesplegable changeOpenMenu={changeOpenMenu}></MenuDesplegable>
+      ) : (
+        <></>
+      )}
     </nav>
   );
 }
