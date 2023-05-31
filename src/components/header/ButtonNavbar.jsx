@@ -1,5 +1,10 @@
-export function ButtonNavbar({children}) {
+export function ButtonNavbar({children, changeOpenMenu}) {
+
+  const handleClick = () => {
+    changeOpenMenu()
+  }
+
   return(
-    <button>{children}</button>
+    <button onClick={handleClick} className="md:hidden">{children}</button>
   )
 }

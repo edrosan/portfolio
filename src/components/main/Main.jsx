@@ -9,9 +9,9 @@ export function Main() {
     <main className="mt-20 mx-4 flex flex-col md:w-auto xl:w-[1024px] xl:mx-auto">
       <Profile></Profile>
 
-      {/* <Skills></Skills> */}
+      <Skills></Skills>
 
-      {/* <Proyectos></Proyectos> */}
+      <Proyectos></Proyectos>
 
       {/* <Contacto></Contacto> */}
     </main>

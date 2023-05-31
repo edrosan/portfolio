@@ -3,10 +3,10 @@ import { Titulo } from "./components/Titulo";
 
 export function Skills() {
   return (
-    <div id="skills" className=" scroll-mt-[50px] mb-16">
+    <div id="skills" className="mb-16 scroll-mt-[70px] ">
       <Titulo>Skills</Titulo>
 
-      <div>
+      <div className="flex flex-wrap gap-2">
         <Skill>HTML</Skill>
         <Skill>CSS</Skill>
         <Skill>JavaScript</Skill>
