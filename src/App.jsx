@@ -16,8 +16,6 @@ function App() {
       <Header changeDarkMode={changeDarkMode}></Header>
 
       <Main></Main>
-
-      
     </>
   );
 }
