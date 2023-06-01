@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DarkMode } from "../icons/DarkMode";
 import { LightMode } from "../icons/LightMode";
-import { Tooltip } from "../general/Tooltip";
+import { Tooltip } from "../common/Tooltip";
 import { Svg } from "../icons/Svg";
 
 export function ButtonDarkMode({ darkMode, changeDarkMode }) {

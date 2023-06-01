@@ -11,10 +11,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-email/render": "^0.0.7",
     "flowbite": "^1.6.5",
     "nodemailer": "^6.9.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.44.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

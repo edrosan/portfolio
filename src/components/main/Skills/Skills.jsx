@@ -1,5 +1,5 @@
 import { Skill } from "./Skill";
-import { Titulo } from "../../general/Titulo";
+import { Titulo } from "../../common/Titulo";
 
 export function Skills() {
   return (

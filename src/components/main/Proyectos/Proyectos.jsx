@@ -1,5 +1,5 @@
 import { Proyecto } from "./Proyecto";
-import { Titulo } from "../../general/Titulo";
+import { Titulo } from "../../common/Titulo";
 import imgCalculadora from "../../../assets/img/calculadora.png";
 import imgContadorClics from "../../../assets/img/contador-clics.png";
 

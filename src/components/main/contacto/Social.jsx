@@ -1,7 +1,7 @@
 import { Correo } from "../../icons/Correo";
 import { GitHub } from "../../icons/GitHub";
 import { Linkedin } from "../../icons/Linkedin";
-import { Svg } from "../../icons/Svg";
+import { Marcador } from "../../icons/Marcador";
 import { ElementSocial } from "./ElementSocial";
 
 export function Social() {
@@ -17,6 +17,10 @@ export function Social() {
 
       <ElementSocial text="edo.rod.san@gmail.com" goTo="mailto:edo.rod.san@gmail.com">
         <Correo></Correo>
+      </ElementSocial>
+
+      <ElementSocial text="Puebla, México." goTo="https://goo.gl/maps/cMozHTmtnrhPS2RD9">
+        <Marcador></Marcador>
       </ElementSocial>
 
     </div>
