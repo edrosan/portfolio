@@ -7,6 +7,7 @@ import { Skills } from "./Skills";
 import { Proyectos } from "./Proyectos";
 import { Contacto } from "./Contacto";
 import { Navbar } from "./components/header/Navbar";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,6 +32,8 @@ function App() {
 
         <Contacto></Contacto>
       </Main>
+
+      <Footer></Footer>
     </>
   );
 }
