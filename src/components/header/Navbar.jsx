@@ -1,5 +1,5 @@
-import { OpcNavbar } from "../../OpcNavbar";
-import { ButtonDarkMode } from "../../ButtonDarkMode";
+import { OpcNavbar } from "./OpcNavbar";
+import { ButtonDarkMode } from "./ButtonDarkMode";
 import { Icon } from "../icons/Icon";
 import { GitHub } from "../icons/GitHub";
 import { Linkedin } from "../icons/Linkedin";

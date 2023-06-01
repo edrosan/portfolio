@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Header } from "./components/header/Header";
 import { Main } from "./components/main/Main";
 import "./App.css";
-import { Profile } from "./Profile";
-import { Skills } from "./Skills";
-import { Proyectos } from "./Proyectos";
-import { Contacto } from "./Contacto";
+import { Profile } from "./components/main/profile/Profile";
+import { Skills } from "./components/main/Skills/Skills";
+import { Proyectos } from "./components/main/Proyectos/Proyectos";
+import { Contacto } from "./components/main/contacto/Contacto";
 import { Navbar } from "./components/header/Navbar";
 import { Footer } from "./components/footer/Footer";
 

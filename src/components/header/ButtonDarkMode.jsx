@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { DarkMode } from "./components/icons/DarkMode";
-import { LightMode } from "./components/icons/LightMode";
-import { Tooltip } from "./Tooltip";
-import { Svg } from "./components/icons/Svg";
+import { DarkMode } from "../icons/DarkMode";
+import { LightMode } from "../icons/LightMode";
+import { Tooltip } from "../general/Tooltip";
+import { Svg } from "../icons/Svg";
 
 export function ButtonDarkMode({ darkMode, changeDarkMode }) {
   const [isDarkMode, setIsDarkMode] = useState(darkMode);

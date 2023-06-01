@@ -7,15 +7,15 @@ import { ElementSocial } from "./ElementSocial";
 export function Social() {
   return (
     <div className="flex flex-col gap-4">
-      <ElementSocial text="edrosan">
+      <ElementSocial text="edrosan" goTo="https://github.com/edrosan">
         <GitHub></GitHub>
       </ElementSocial>
 
-      <ElementSocial text="edrosan">
+      <ElementSocial text="edrosan" goTo="https://www.linkedin.com/in/edrodsan/">
         <Linkedin></Linkedin>
       </ElementSocial>
 
-      <ElementSocial text="edo.rod.san@gmail.com">
+      <ElementSocial text="edo.rod.san@gmail.com" goTo="mailto:edo.rod.san@gmail.com">
         <Correo></Correo>
       </ElementSocial>
 

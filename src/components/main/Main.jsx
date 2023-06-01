@@ -1,7 +1,7 @@
-import { Contacto } from "../../Contacto";
-import { Profile } from "../../Profile";
-import { Proyectos } from "../../Proyectos";
-import { Skills } from "../../Skills";
+import { Contacto } from "./contacto/Contacto";
+import { Profile } from "./profile/Profile";
+import { Proyectos } from "./Proyectos/Proyectos";
+import { Skills } from "./Skills/Skills";
 import { Tooltip } from "flowbite";
 
 export function Main( {children} ) {

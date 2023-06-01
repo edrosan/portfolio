@@ -1,9 +1,8 @@
-import user from "../src/assets/img/user.png";
-import { Titulo } from "./components/Titulo";
-import { ImgProfile } from "./components/main/profile/ImgProfile";
-import { InfoProfile } from "./components/main/profile/InfoProfile";
-import { TituloEfectoProfile } from "./components/main/profile/TituloEfectoProfile";
-import { TituloProfile } from "./components/main/profile/TituloProfile";
+import user from "../../../../src/assets/img/user.png";
+import { ImgProfile } from "./ImgProfile";
+import { InfoProfile } from "./InfoProfile";
+import { TituloEfectoProfile } from "./TituloEfectoProfile";
+import { TituloProfile } from "./TituloProfile";
 
 export function Profile() {
   return (

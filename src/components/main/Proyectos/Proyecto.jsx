@@ -1,5 +1,5 @@
-import { ImgProyecto } from "./components/main/Proyectos/ImgProyecto";
-import { InfoProyecto } from "./components/main/Proyectos/InfoProyecto";
+import { ImgProyecto } from "./ImgProyecto";
+import { InfoProyecto } from "./InfoProyecto";
 
 export function Proyecto({
   imagenProyecto,

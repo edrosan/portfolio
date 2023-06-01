@@ -1,5 +1,5 @@
 import { Skill } from "./Skill";
-import { Titulo } from "./components/Titulo";
+import { Titulo } from "../../general/Titulo";
 
 export function Skills() {
   return (

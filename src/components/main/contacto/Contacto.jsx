@@ -1,6 +1,6 @@
-import { Titulo } from "./components/Titulo";
-import { Formulario } from "./components/main/contacto/Formulario";
-import { Social } from "./components/main/contacto/Social";
+import { Titulo } from "../../general/Titulo";
+import { Formulario } from "./Formulario";
+import { Social } from "./Social";
 
 export function Contacto() {
   return (

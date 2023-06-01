@@ -1,4 +1,4 @@
-import { Tooltip } from "../../Tooltip";
+import { Tooltip } from "../general/Tooltip";
 import { Svg } from "./Svg";
 
 export function Icon({ children, goTo, name, textTooltip }) {

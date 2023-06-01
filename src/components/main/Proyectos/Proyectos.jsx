@@ -1,7 +1,7 @@
 import { Proyecto } from "./Proyecto";
-import imgCalculadora from "./assets/img/calculadora.png";
-import imgContadorClics from "./assets/img/contador-clics.png";
-import { Titulo } from "./components/Titulo";
+import { Titulo } from "../../general/Titulo";
+import imgCalculadora from "../../../assets/img/calculadora.png";
+import imgContadorClics from "../../../assets/img/contador-clics.png";
 
 export function Proyectos() {
   return (
