@@ -8,9 +8,9 @@ export function Profile() {
   return (
     <div
       id="inicio"
-      className="mb-16 flex flex-col items-start scroll-mt-[80px]   lg:flex-row lg:items-center justify-between dark:bg-[#1c1b1f]"
+      className="w-full h-auto mb-16 flex flex-col items-start scroll-mt-[80px]   lg:flex-row lg:items-center justify-between dark:bg-[#1c1b1f] lg:mt-8 lg:mb-16"
     >
-      <div className="w-full h-auto mb-4 flex flex-col ">
+      <div className="w-full h-auto mb-4 flex flex-col lg:w-auto lg:tracking-wide">
         <TituloProfile>EDUARDO RODRIGUEZ</TituloProfile>
 
         <TituloEfectoProfile>Frontend Developer</TituloEfectoProfile>

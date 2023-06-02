@@ -7,11 +7,11 @@ export function Contacto() {
   
 
   return (
-    <div id="contacto" className="">
+    <div id="contacto" className="lg:my-16">
       <Titulo>Contactame</Titulo>
 
       <div className="flex flex-col gap-4">
-        <Formulario></Formulario>
+        {/* <Formulario></Formulario> */}
 
         {/* <button onClick={action}>click</button> */}
         <Social></Social>

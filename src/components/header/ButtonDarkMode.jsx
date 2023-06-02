@@ -19,7 +19,7 @@ export function ButtonDarkMode({ darkMode, changeDarkMode }) {
         data-tooltip-target={`tooltip-${name}`}
         data-tooltip-placement="bottom"
         type="button "
-        className="w-auto h-full hover:bg-[#e4e1ec] hover:text-[#47464f] dark:hover:bg-[#47464f] dark:hover:text-[#c8c5d0] px-4 rounded-lg"
+        className="group w-auto h-full hover:bg-[#e4e1ec] hover:text-[#47464f] dark:hover:bg-[#47464f] dark:hover:text-[#c8c5d0] px-4 rounded-lg"
         onClick={changeIconDarkMode}
       >
         {isDarkMode ? (

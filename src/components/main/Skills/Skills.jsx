@@ -3,7 +3,7 @@ import { Titulo } from "../../common/Titulo";
 
 export function Skills() {
   return (
-    <div id="skills" className="mb-16 scroll-mt-[70px] ">
+    <div id="skills" className="mb-16 scroll-mt-[140px] lg:my-16">
       <Titulo>Skills</Titulo>
 
       <div className="flex flex-wrap gap-2">

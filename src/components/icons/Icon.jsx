@@ -1,6 +1,8 @@
 import { Tooltip } from "../common/Tooltip";
 import { Svg } from "./Svg";
 
+
+
 export function Icon({ children, goTo, name, textTooltip }) {
   return (
     <>

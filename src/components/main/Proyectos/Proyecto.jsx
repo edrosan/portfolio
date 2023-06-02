@@ -11,7 +11,7 @@ export function Proyecto({
   return (
     <a
       href={linkTo}
-      className="w-full flex flex-col rounded-lg border border-[#e4e1ec] dark:border-none"
+      className="w-full flex flex-col justify-between rounded-lg border border-[#e4e1ec] shadow-lg dark:border-none"
       target="_blank"
       rel="noreferrer"
     >
