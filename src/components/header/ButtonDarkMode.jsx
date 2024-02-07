@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DarkMode } from "../icons/DarkMode";
 import { LightMode } from "../icons/LightMode";
-import { Tooltip } from "../common/Tooltip";
+import { Tooltips } from "../common/Tooltips";
 import { Svg } from "../icons/Svg";
 
 export function ButtonDarkMode({ darkMode, changeDarkMode }) {
@@ -33,7 +33,7 @@ export function ButtonDarkMode({ darkMode, changeDarkMode }) {
         )}
       </button>
 
-      <Tooltip name={name}>{isDarkMode ? "Modo oscuro" : "Modo claro"}</Tooltip>
+      <Tooltips name={name}>{isDarkMode ? "Modo oscuro" : "Modo claro"}</Tooltips>
     </>
   );
 }

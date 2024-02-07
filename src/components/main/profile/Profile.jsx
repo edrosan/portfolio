@@ -1,4 +1,4 @@
-import user from "../../../../src/assets/img/user.png";
+import user from "../../../../src/assets/img/lalo.jpg";
 import { ImgProfile } from "./ImgProfile";
 import { InfoProfile } from "./InfoProfile";
 import { TituloEfectoProfile } from "./TituloEfectoProfile";

@@ -1,5 +1,7 @@
-import { Tooltip } from "../common/Tooltip";
+import { Tooltips } from "../common/Tooltips";
 import { Svg } from "./Svg";
+import { Tooltip }  from "flowbite";
+
 
 
 
@@ -16,7 +18,7 @@ export function Icon({ children, goTo, name, textTooltip }) {
         <Svg>{children}</Svg>
       </a>
 
-      <Tooltip name={name}>{textTooltip}</Tooltip>
+      <Tooltips name={name}>{textTooltip}</Tooltips>
     </>
   );
 }

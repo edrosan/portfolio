@@ -9,6 +9,7 @@ import { Menu } from "../icons/Menu";
 import { Close } from "../icons/Close";
 import { MenuDesplegable } from "./menu-desplegable/MenuDesplegable";
 import { useState } from "react";
+import logoEdrosan from "../../assets/img/logo-edrosan.png";
 
 export function Navbar({ changeDarkMode, darkMode }) {
   const [openMenu, setOpenMenu] = useState(false);
@@ -21,7 +22,9 @@ export function Navbar({ changeDarkMode, darkMode }) {
     <nav className="w-full flex flex-col gap-0 bg-[#fffbff] dark:bg-[#1c1b1f] md:justify-between lg:w-[1024px] lg:mx-auto ">
       
       <div className=" px-4 py-4 flex justify-between border border-transparent border-b-[#e4e1ec]  dark:border-b-[#47464f] md:border-b-transparent md:dark:border-b-transparent md:p-2">
-        <div className="text-[#1c1b1f] dark:text-[#e5e1e6]">Rodriguez</div>
+        <div className="w-10 text-[#1c1b1f] dark:text-[#e5e1e6] dark:invert ">
+          <img src={logoEdrosan} />
+        </div>
         <div className="flex justify-self-end">
           <ButtonNavbar changeOpenMenu={changeOpenMenu}>
             <Svg>{openMenu ? <Close></Close> : <Menu></Menu>}</Svg>

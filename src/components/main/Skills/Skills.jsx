@@ -9,9 +9,14 @@ export function Skills() {
       <div className="flex flex-wrap gap-2">
         <Skill>HTML</Skill>
         <Skill>CSS</Skill>
-        <Skill>JavaScript</Skill>
-        <Skill>Laravel</Skill>
         <Skill>Tailwind CSS</Skill>
+        <Skill>JavaScript</Skill>
+        <Skill>React Js</Skill>
+        <Skill>GitHub</Skill>
+        <Skill>PHP</Skill>
+        <Skill>Laravel</Skill>
+        <Skill>Leaf php</Skill>
+        <Skill>MySQL</Skill>
       </div>
     </div>
   );
