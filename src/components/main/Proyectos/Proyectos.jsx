@@ -1,8 +1,7 @@
 import { Proyecto } from "./Proyecto";
 import { Titulo } from "../../common/Titulo";
-import imgCalculadora from "../../../assets/img/calculadora.png";
-import imgContadorClics from "../../../assets/img/contador-clics.png";
 import jelWeb from "../../../assets/img/jel-web-3.png";
+import karyoWeb from "../../../assets/img/karyo-web.png";
 
 export function Proyectos() {
   return (
@@ -17,7 +16,7 @@ export function Proyectos() {
       </h2>
 
       <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-      <Proyecto
+        <Proyecto
           imagenProyecto={jelWeb}
           linkTo="https://jel-team.vercel.app/"
           nombre="Sistema de votación descentralizado"
@@ -25,8 +24,15 @@ export function Proyectos() {
           descripcion="Sistema de votación descentralizado basado en blockchain"
         />
 
-
         <Proyecto
+          imagenProyecto={karyoWeb}
+          linkTo="https://karyodiagnosticoveterinario.com/"
+          nombre="Diagnostico veterinario Karyo"
+          tecnologias={["React Js", "Tailwind CSS", "Leaf PHP", "MySQL"]}
+          descripcion="Sistema de agenda y diagnostico veterinario"
+        />
+
+        {/* <Proyecto
           imagenProyecto={imgCalculadora}
           linkTo="https://calculadora-production-8756.up.railway.app/"
           nombre="Calculadora"
@@ -42,7 +48,7 @@ export function Proyectos() {
           nombre="Contador clics"
           tecnologias={["React", "CSS"]}
           descripcion="Contador basico de clics"
-        ></Proyecto>
+        ></Proyecto> */}
       </div>
     </div>
   );
