@@ -16,7 +16,7 @@ export function Profile() {
         <TituloEfectoProfile>Frontend Developer</TituloEfectoProfile>
 
         <InfoProfile>
-          Un desarrollador enfocado en el frontend que construye sitios que
+          Desarrollador web enfocado en el frontend que construye sitios que
           conducen al éxito del producto.
         </InfoProfile>
       </div>

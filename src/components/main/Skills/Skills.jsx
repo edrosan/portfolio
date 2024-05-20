@@ -12,6 +12,7 @@ export function Skills() {
         <Skill>Tailwind CSS</Skill>
         <Skill>JavaScript</Skill>
         <Skill>React Js</Skill>
+        <Skill>git</Skill>
         <Skill>GitHub</Skill>
         <Skill>PHP</Skill>
         <Skill>Laravel</Skill>
